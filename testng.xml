@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite">
+    <listeners>
+        <listener class-name="org.example.Listener.TestListener"/>
+    </listeners>
+    <test verbose="2" preserve-order="true" name="/Users/akshay/IdeaProjects/demo_maven_project1">
+
+        <parameter name="browser" value="chrome"/>
+        <classes>
+<!--            <class name="Authentication.LoginTest"/>-->
+            <class name="Authentication.SearchProductTest"/>
+<!--            <class name="Authentication.AddToCartTest"/>-->
+<!--            <class name="Authentication.AddressTest"/>-->
+        </classes>
+    </test>
+
+<!--    <test verbose="2" preserve-order="true" name="/Users/akshay/IdeaProjects/demo_maven_project2">-->
+<!--        <parameter name="browser" value="firefox"/>-->
+<!--        <classes>-->
+<!--            <class name="Authentication.LoginTest"/>-->
+<!--&lt;!&ndash;            <class name="Authentication.SearchProductTest"/>&ndash;&gt;-->
+<!--&lt;!&ndash;            <class name="Authentication.AddToCartTest"/>&ndash;&gt;-->
+<!--&lt;!&ndash;            <class name="Authentication.AddressTest"/>&ndash;&gt;-->
+<!--        </classes>-->
+<!--    </test>-->
+</suite>

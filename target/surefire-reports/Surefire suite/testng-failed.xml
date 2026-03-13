@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Surefire suite]" verbose="0">
+  <test thread-count="5" name="Surefire test(failed)" verbose="0">
+    <classes>
+      <class name="Authentication.LoginTest">
+        <methods>
+          <include name="afterMethod"/>
+          <include name="beforeMethod"/>
+          <include name="beforeClass"/>
+          <include name="afterClass"/>
+          <include name="VerifyUserCanLoginToApplication"/>
+        </methods>
+      </class> <!-- Authentication.LoginTest -->
+      <class name="Authentication.SearchProductTest">
+        <methods>
+          <include name="afterClass"/>
+          <include name="verifyUserCanViewProduct"/>
+          <include name="verifySearchProductFunctionality"/>
+          <include name="afterMethod"/>
+          <include name="beforeClass"/>
+          <include name="verifyUserCanClickOnProduct"/>
+          <include name="verifyUserCanSeeDetailsInSideProduct"/>
+          <include name="beforeMethod"/>
+        </methods>
+      </class> <!-- Authentication.SearchProductTest -->
+    </classes>
+  </test> <!-- Surefire test(failed) -->
+</suite> <!-- Failed suite [Surefire suite] -->

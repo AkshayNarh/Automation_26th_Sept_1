@@ -1,0 +1,10 @@
+org/example/Main.class
+org/example/BaseClass/BaseClass.class
+org/example/UtilityClasses/AllureUtils.class
+org/example/PomClasses/ProfilePage.class
+org/example/Listener/TestListener.class
+org/example/PomClasses/LoginPage.class
+org/example/PomClasses/ProductDetailsPage.class
+org/example/UtilityClasses/Utils.class
+org/example/PomClasses/HomePage.class
+org/example/PomClasses/ProductListPage.class
