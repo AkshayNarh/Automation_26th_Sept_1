@@ -74,6 +74,11 @@ public class SearchProductTest extends BaseClass{
         Assert.assertTrue(false);
     }
 
+    @Test(priority = 7)
+    public void verifyUserCanSeeDetailsInSideProduct2(){
+        Assert.assertTrue(false);
+    }
+
 
     @AfterMethod
     public void afterMethod(ITestResult result) throws IOException {
