@@ -80,6 +80,22 @@ public class SearchProductTest extends BaseClass{
     }
 
 
+    @Test(priority = 11)
+    public void verifyUserCanSeeDetailsInSideProduct6(){
+        Assert.assertTrue(false);
+    }
+
+    @Test(priority = 12)
+    public void verifyUserCanSeeDetailsInSideProduct7(){
+        Assert.assertTrue(false);
+    }
+
+    @Test(priority = 13)
+    public void verifyUserCanSeeDetailsInSideProduct8(){
+        Assert.assertTrue(false);
+    }
+
+
     @AfterMethod
     public void afterMethod(ITestResult result) throws IOException {
         if(result.getStatus() == ITestResult.SUCCESS){
