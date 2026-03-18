@@ -99,6 +99,12 @@ public class SearchProductTest extends BaseClass{
         Assert.assertTrue(false);
     }
 
+    @Test(priority = 12)
+    public void AddtoCart2(){
+        Assert.assertTrue(false);
+    }
+
+
 
 
     @AfterMethod
