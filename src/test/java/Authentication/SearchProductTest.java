@@ -95,7 +95,7 @@ public class SearchProductTest extends BaseClass{
     }
 
     @Test(priority = 11)
-    public void AddtoCart(){
+    public void AddtoCartrwefsdfwsd(){
         Assert.assertTrue(false);
     }
 
