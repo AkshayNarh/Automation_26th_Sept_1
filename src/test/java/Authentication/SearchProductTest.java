@@ -106,7 +106,7 @@ public class SearchProductTest extends BaseClass{
 
 
     @Test(priority = 11)
-    public void verifyUserCanSeeDetailsInSideProduct6(){
+    public void verifyUserCanSeeDetailsInSideProduct222(){
         Assert.assertTrue(false);
     }
 
