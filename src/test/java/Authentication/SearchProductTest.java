@@ -85,7 +85,7 @@ public class SearchProductTest extends BaseClass{
     }
 
     @Test(priority = 9)
-    public void verifyUserCanSeeDetailsInSideProduct445645(){
+    public void verifyUserCanSeeDetailsInSideProduct4(){
         Assert.assertTrue(false);
     }
 
@@ -95,12 +95,12 @@ public class SearchProductTest extends BaseClass{
     }
 
     @Test(priority = 11)
-    public void AddtoCartrwefsdfwsd(){
+    public void AddtoCart(){
         Assert.assertTrue(false);
     }
 
     @Test(priority = 12)
-    public void AddtoCart2sdscsc(){
+    public void AddtoCart2oikookjo(){
         Assert.assertTrue(true);
     }
 
